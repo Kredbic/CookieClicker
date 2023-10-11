@@ -1,0 +1,54 @@
+* {
+    user-select: none;
+}
+
+#cookie {
+    max-width: 250px;
+    width: 100%;
+}
+
+body {
+    font-family: "Sofia", sans-serif;
+    font-size: 60px;
+    background-image: url("../img/Background.jpg");
+    background-size: cover;
+}
+
+.middle {
+    text-align: center;
+    margin-top: 260px;
+}
+
+button {
+    font-size: 25px;
+    background-color: white;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#UpgradeClicks {
+    background-color: #d4af85;
+    color: white;
+    background-image: url("your-image-path.png"); 
+    background-repeat: no-repeat;
+    background-size: 20px 20px; 
+    background-position: right center;
+    padding-right: 30px; 
+}
+
+#UpgradeAuto {
+    background-color: #d4af85;
+    color: white;
+    background-image: url("your-image-path.png"); 
+    background-repeat: no-repeat;
+    background-size: 20px 20px; 
+    background-position: right center;
+    padding-right: 30px; 
+}
+
+button:hover {
+    background-color: #2980b9;
+}
